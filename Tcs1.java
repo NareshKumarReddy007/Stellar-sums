@@ -2,12 +2,12 @@
 the task is to find the possible number of was p to make the n members sit around the circular table .the president and prime minister of india will always sit next to each other.*/
      //input:5;
      //output:48
-
+    
 import java.util.Scanner;
 class Tcs {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int n = sc.nextInt();//  if we have big number use long.
         int fact = 1;
         // calculate (n-1)!
         for (int i = 1; i < n; i++) {
